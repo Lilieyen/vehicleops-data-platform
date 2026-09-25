@@ -192,11 +192,13 @@ The dashboard provides a consolidated view of fleet activity, fuel consumption, 
 
 ### Dashboard
 
-[VehicleOps Fleet Performance Dashboard](docs/images/powerbi-dashboard.png)
+<img width="1435" height="798" alt="powerbi-dashboard png" src="https://github.com/user-attachments/assets/28ba24ed-f3eb-4f81-9ff8-c98d308fba99" />
+
 
 ### Airflow Pipeline
 
-[VehicleOps Airflow Pipeline](docs/images/airflow-dag.png)
+<img width="1600" height="645" alt="airflow-dag png" src="https://github.com/user-attachments/assets/ffacbb00-b96d-4116-9f86-67c87790bdec" />
+
 
 ---
 
