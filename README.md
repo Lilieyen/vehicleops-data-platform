@@ -28,7 +28,7 @@ The current Airflow DAG orchestrates the **generation, validation, and loading**
 
 ## The Problem
 
-Fleet data is rarely contained in one dataset.
+Fleet data is highly fragmented and rarely contained in one dataset.
 
 Vehicle information describes **what is in the fleet**, while trips describe **how vehicles are being used**, fuel logs capture **fuel consumption and cost**, maintenance records capture **maintenance activity and expenditure**, and sensor readings provide information about **vehicle operating conditions**.
 
@@ -187,6 +187,11 @@ The completed platform includes:
 * A structured **warehouse with fact and dimension tables**
 * **3 analytical SQL views**
 * An interactive **Power BI fleet performance dashboard**
+
+### Architecture
+
+<img width="1536" height="851" alt="Vehhicle Ops Data Platform Pic" src="https://github.com/user-attachments/assets/a5951513-8d48-4878-bcf6-b4931b2d66bc" />
+
 
 The dashboard provides a consolidated view of fleet activity, fuel consumption, fuel costs, maintenance costs, and vehicle-level performance.
 
