@@ -251,7 +251,7 @@ docker compose up -d
 
 Open Airflow, trigger `vehicleops_pipeline`, and allow the pipeline to complete.
 
-The generated data is then available in PostgreSQL for the warehouse and analytics layers.
+The pipeline generates, validates, and loads the data into PostgreSQL, where it is used for the warehouse and analytics layers.
 
 The Power BI dashboard is available at:
 
